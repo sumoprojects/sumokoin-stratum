@@ -33,7 +33,7 @@ Compile Sumokoin source (with shared libraries option):
     cd sumokoin
     cmake -DBUILD_SHARED_LIBS=1 .
     make
-
+    (There is currently a bug waiting to be fixed at Monero, if it doesnt build with that flag please apply this closed pull of XMR https://github.com/monero-project/monero/pull/5938/files )
 Install Golang and required packages:
 
     sudo apt-get install golang
